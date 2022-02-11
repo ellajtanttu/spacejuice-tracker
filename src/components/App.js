@@ -1,13 +1,13 @@
 import React from "react";
+import Header from "./Header";
+import About from "./About";
 
 function App() {
   return (
     <React.Fragment>
-      {/* <Header />
+      <Header />
       <About />
-      <Control /> */}
-      <h1>SpaceJuice Inventory Tracker</h1>
-      <p>About SpaceJuice</p>
+      {/* <Control /> */}
       <h4>SpaceJuice Drum Inventory List</h4>
       <ul>
         <li>Raspberry Retrograde Drum | Trifid Nebula Co. | Raspberry | 12 canisters left | $18 / Canister</li>

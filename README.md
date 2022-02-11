@@ -20,7 +20,7 @@ _TBD_
 
 ## Project Layout Diagram
 
-_Insert Diagram Here_
+![spacejuice-diagram](src/img/spacejuice_diagram.png)
 
 ## Setup/Installation Requirements
 
@@ -45,3 +45,24 @@ Copyright (c) _Ella Tanttu_
 ## Support and Contact Details
 
 _[ellajtanttu@gmail.com](mailto:ellajtanttu@gmail.com)_
+
+-------
+
+# Planning and Brainstorming:
+
+### Project Prompt:
+
+SpaceJuice Retailer - tracking multiple drums (each a different flavor of spaceJuice), each drum holds 123 canisters.
+
+- [ ] CREATE functionality
+- [ ] READ functionality
+- [ ] Item list page: a list/menu of all available kegs.
+- [ ] Item detail page: 
+    - [ ] Name
+    - [ ] Brand
+    - [ ] Price
+    - [ ] Flavor(?)
+- [ ] New Item form
+- [ ] Click on item to see corresponding detail page
+- [ ] Property:  how many remaining canisters are left: there are 123 canisters/drum
+- [ ] Button on List and Detail page: sold a Canister, decreases total. Total canister count can’t go below 0

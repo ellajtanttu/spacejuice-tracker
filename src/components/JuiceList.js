@@ -1,9 +1,13 @@
 import React from "react";
-// import Juice from "./Juice";
+import Juice from "./Juice";
 // import PropTypes from "prop-types";
 
 function JuiceList() {
-  <Juice />
+  return (
+    <React.Fragment>
+      <Juice />
+    </React.Fragment>
+  )
 }
 
 export default JuiceList;

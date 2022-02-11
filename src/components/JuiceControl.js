@@ -1,6 +1,7 @@
 import React from "react";
+import JuiceDetails from "./JuiceDetails";
 import JuiceList from "./JuiceList";
-import NewJuiceForm from "./NewJuiceForm"
+// import NewJuiceForm from "./NewJuiceForm"
 // import JuiceDetails from "./JuiceDetails";
 
 class JuiceControl extends React.Component {
@@ -22,6 +23,8 @@ FUTURE: New Juice Form | 2 => button: Details(1)
 render() {
   return (
     <React.Fragment>
+      <JuiceList />
+      <JuiceDetails />
 
     </React.Fragment>
   )

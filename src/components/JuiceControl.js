@@ -1,7 +1,7 @@
 import React from "react";
 import JuiceDetails from "./JuiceDetails";
 import JuiceList from "./JuiceList";
-// import NewJuiceForm from "./NewJuiceForm"
+import NewJuiceForm from "./NewJuiceForm"
 // import JuiceDetails from "./JuiceDetails";
 
 class JuiceControl extends React.Component {
@@ -25,7 +25,7 @@ render() {
     <React.Fragment>
       <JuiceList />
       <JuiceDetails />
-
+      <NewJuiceForm />
     </React.Fragment>
   )
   // let currentPage = null;

@@ -8,8 +8,8 @@ class JuiceControl extends React.Component {
   constructor() {
     super();
     this.state = {
-      mainJuiceList: [],
-      pageShowing: 0,
+      // mainJuiceList: [],
+      pageShowing: 0
     };
   }
 
@@ -20,19 +20,19 @@ FUTURE: New Juice Form | 2 => button: Details(1)
 */
 
 render() {
+  let currentlyVisiblePage = null;
+  if (this.state.pageShowing === 0) {
+    currentlyVisiblePage = <JuiceList />
+  } else if (this.state.pageShowing === 1) {
+    currentlyVisiblePage = <JuiceDetails />
+  } else {
+    currentlyVisiblePage = <NewJuiceForm />
+  }
   return (
     <React.Fragment>
-    if (this.state.pageNumber === 0) {
-      <JuiceList />
-    } else if (this.state.pageNumber === 1) {
-      <JuiceDetails />
-    } else {
-      <NewJuiceForm />
-    }
+      {currentlyVisiblePage}
     </React.Fragment>
-
   )
-  let currentPage = null;
 }
 
 

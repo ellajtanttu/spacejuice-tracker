@@ -10,7 +10,6 @@ class JuiceControl extends React.Component {
     this.state = {
       mainJuiceList: [],
       pageShowing: 0,
-      currentJuiceInDetails: null
     };
   }
 
@@ -23,12 +22,17 @@ FUTURE: New Juice Form | 2 => button: Details(1)
 render() {
   return (
     <React.Fragment>
+    if (this.state.pageNumber === 0) {
       <JuiceList />
+    } else if (this.state.pageNumber === 1) {
       <JuiceDetails />
+    } else {
       <NewJuiceForm />
+    }
     </React.Fragment>
+
   )
-  // let currentPage = null;
+  let currentPage = null;
 }
 
 

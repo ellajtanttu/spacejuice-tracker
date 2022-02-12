@@ -1,14 +1,22 @@
 import React from "react";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
-function Juice() {
+function Juice(props) {
   return (
     <React.Fragment>
-        <h2>Luminous Lime</h2>
-        <p>Price: $24 / Canister</p>
-        <p>Canisters Remaining: 121</p>
+        <h2>{props.name}</h2>
+        <p>{props.price}</p>
+        <p>Canisters Remaining: {props.canisterCount}</p>
     </React.Fragment>
   );
 }
 
+
+Juice.propTypes = {
+  name: PropTypes.string,
+  price: PropTypes.string,
+  canisterCount: PropTypes.number
+};
+
 export default Juice;
+

@@ -1,36 +1,35 @@
 import React from "react";
-import { v4 } from "uuid";
-import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
+import PropTypes from "prop-types";
 
-function NewJuiceForm(props){
+function EditJuiceForm(props) {
+  const { juice } = props;
 
-  function handleNewJuiceFormSubmission(event) {
+  function handleEditJuiceFormSubmission(event) {
     event.preventDefault();
-    props.onNewJuiceCreation({
+    props.onEditJuice({
       name: event.target.name.value,
       distributor: event.target.distributor.value,
       price: event.target.price.value,
       flavor: event.target.flavor.value,
       price: event.target.price.value,
       canisterCount: event.target.canisterCount.value,
-      id: v4()})
-    };
-
-
-  // event.target.names.value,
+      id: juice.id,
+    });
+  }
   return (
     <React.Fragment>
       <ReusableForm
-        formSubmissionHandler={handleNewJuiceFormSubmission}
-        buttonText="Create"/>
+        formSubmissionHandler={handleEditJuiceFormSubmission}
+        buttonText="Update Juice"
+      />
     </React.Fragment>
-  )
+  );
 }
 
-NewJuiceForm.propTypes = {
-  onNewJuiceCreation: PropTypes.func
+EditJuiceForm.propTypes = {
+  juice: PropTypes.object,
+  onEditJuice: PropTypes.func,
 };
 
-
-export default NewJuiceForm;
+export default EditJuiceForm;

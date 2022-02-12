@@ -66,3 +66,11 @@ SpaceJuice Retailer - tracking multiple drums (each a different flavor of spaceJ
 - [ ] Click on item to see corresponding detail page
 - [ ] Property:  how many remaining canisters are left: there are 123 canisters/drum
 - [ ] Button on List and Detail page: sold a Canister, decreases total. Total canister count can’t go below 0
+
+
+TO DO:
+- [ ] pass in props
+- [ ] conditional rendering
+- [ ] implement Create form
+- [ ] quantity property
+- [ ] Button for quantity change

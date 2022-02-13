@@ -54,16 +54,16 @@ _[ellajtanttu@gmail.com](mailto:ellajtanttu@gmail.com)_
 
 SpaceJuice Retailer - tracking multiple drums (each a different flavor of spaceJuice), each drum holds 123 canisters.
 
-[X] - CREATE functionality
-[X] - READ functionality
-[X] - Item list page: a list/menu of all available kegs.
-[X]- Item detail page: 
-    [X]- Name
-    [X]- Brand
-    [X]- Price
-    [X]- Flavor(?)
-[X]- New Item form
-[X]- Click on item to see corresponding detail page
-[ ]- Button on Detail page for decreasing quantity
-    [ ]- sold a Canister, decreases total. 
-    [ ]- Total canister count can’t go below 0
+- [X] CREATE functionality
+- [X] READ functionality
+- [X] Item list page: a list/menu of all available kegs.
+- [X] Item detail page: 
+    - [X] Name
+    - [X] Brand
+    - [X] Price
+    - [X] Flavor(?)
+- [X] New Item form
+- [X] Click on item to see corresponding detail page
+- [ ] Button on Detail page for decreasing quantity
+    - [ ] sold a Canister, decreases total. 
+    - [ ] Total canister count can’t go below 0

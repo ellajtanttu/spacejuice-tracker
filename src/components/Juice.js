@@ -8,11 +8,10 @@ function Juice(props) {
   return (
     <React.Fragment>
       <div>
-        <h2>{props.name}</h2>
-        <p>{props.price}</p>
+        <h2>Juice Name: {props.name}</h2>
+        <p>Juice Price: {props.price}</p>
 
         <h4>Canisters Remaining:</h4>
-
         {props.canisterCount === 0 ? (
           <p>Out of Stock</p>
         ) : (

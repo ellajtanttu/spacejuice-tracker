@@ -1,7 +1,8 @@
 import React from "react";
-import JuiceDetails from "./JuiceDetails";
 import JuiceList from "./JuiceList";
+import JuiceDetails from "./JuiceDetails";
 import NewJuiceForm from "./NewJuiceForm"
+import EditJuiceForm from "./EditJuiceForm"
 
 class JuiceControl extends React.Component {
   constructor() {
@@ -48,7 +49,7 @@ class JuiceControl extends React.Component {
     const newJuice = this.state.mainJuiceList.filter(
       (juice) => juice.id === juiceKey
     )[0];
-    this.setState({ currentJuiceInDetails: newJuice, pageShowing:0 });
+    this.setState({ currentJuiceInDetails: newJuice, pageShowing:1 });
   }
 
   handleDeletingJuice = (id) => {
@@ -81,7 +82,7 @@ class JuiceControl extends React.Component {
 /*
 Juice List | 0 => button: NJ From (2)
 Juice Details | 1 => button: List (0)
-FUTURE: New Juice Form | 2 => button: Details(1)
+New Juice Form | 2 => button: Details(1)
 */
 
 render() {
@@ -105,7 +106,7 @@ render() {
       />
     );
     buttonText = "Go back";
-  } else if (this.state.pageShowing === 1) {
+  } else if (this.state.pageShowing === 0) {
     currentPage = (
       <JuiceList
         currentJuiceList={currentJuiceList}

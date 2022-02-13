@@ -39,7 +39,9 @@ function ReusableForm(props) {
       <br />
 
       <div>
-        <input type="number" name="canisterCount" min="0" />
+        <label htmlFor="canisterCount">Available Canisters out of 123</label>
+        <br />
+        <input type="number" name="canisterCount" min="0" max="123" />
       </div>
       <br />
 

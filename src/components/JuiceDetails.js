@@ -5,15 +5,13 @@ function JuiceDetails(props) {
   const { juice, onClickingDelete, onClickingEdit } = props;
   return (
     <React.Fragment>
-    <h2>
-      {juice.name}
-    </h2>
-    <p>Distributor: {juice.distributor}</p>
-    <p>Flavor: {juice.flavor}</p>
-    <p>Price: {juice.price}</p>
-    <p>Canisters Remaining: {juice.canisterCount}</p>
-    <button onClick={() => onClickingDelete(juice.id)}>Delete juice</button>
-    <button onClick={ onClickingEdit }>Update Ticket</button>
+      <h2>{juice.name}</h2>
+      <p>Distributor: {juice.distributor}</p>
+      <p>Flavor: {juice.flavor}</p>
+      <p>Price: {juice.price}</p>
+      <p>Canisters Remaining: {juice.canisterCount}</p>
+      <button onClick={() => onClickingDelete(juice.id)}>Delete juice</button>
+      <button onClick={onClickingEdit}>Update Ticket</button>
     </React.Fragment>
   );
 }
@@ -25,7 +23,7 @@ JuiceDetails.propTypes = {
   price: PropTypes.string,
   canisterCount: PropTypes.string,
   onClickingDelete: PropTypes.func,
-  onClickingEdit: PropTypes.func
+  onClickingEdit: PropTypes.func,
 };
 
 export default JuiceDetails;

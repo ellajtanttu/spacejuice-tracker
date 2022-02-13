@@ -20,7 +20,11 @@ function ReusableForm(props) {
       <div>
         <label htmlFor="distributor">Distributor</label>
         <br />
-        <input type="text" name="distributor" placeholder="Hydrus Galaxy Inc." />
+        <input
+          type="text"
+          name="distributor"
+          placeholder="Hydrus Galaxy Inc."
+        />
       </div>
       <br />
 

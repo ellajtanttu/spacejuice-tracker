@@ -13,6 +13,7 @@ function JuiceList(props) {
           flavor= {juice.flavor}
           price= {juice.price}
           canisterCount= {juice.canisterCount}
+          id= {juice.id}
           key= {juice.id}
         />
       )}

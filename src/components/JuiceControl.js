@@ -11,27 +11,29 @@ class JuiceControl extends React.Component {
       mainJuiceList: [],
       pageShowing: 0,
       currentJuiceInDetails: null,
-      editing: false
+      editing: false,
     };
   }
+
 
   handleClick = () => {
     if (this.state.editing) {
       this.setState((prevState) => ({
         editing: false,
-      }))
-    } else if (this.state.pageShowing === 0) {
-      this.setState((prevState) => ({
-        pageShowing: 2
-      }))
+      }));
     } else if (this.state.pageShowing === 1) {
       this.setState((prevState) => ({
         pageShowing: 0,
         currentJuiceInDetails: null,
       }))
+    } else if (this.state.pageShowing === 0) {
+      this.setState((prevState) => ({
+        pageShowing: 2,
+        currentJuiceInDetails: null,
+      }))
     } else if (this.state.pageShowing === 2) {
       this.setState((prevState) => ({
-        pageShowing: 0
+        pageShowing: 2
       }))
     } else {
       this.setState((prevState) => ({
@@ -39,6 +41,13 @@ class JuiceControl extends React.Component {
       }))
     }
   }
+
+    /*
+Juice List | 0 => button: NJ From (2)
+Juice Details | 1 => button: List (0)
+New Juice Form | 2 => button: Details(1)
+*/
+
 
   handleAddingNewJuiceToList = (newJuice) => {
     const newMainJuiceList = this.state.mainJuiceList.concat(newJuice);
@@ -49,7 +58,7 @@ class JuiceControl extends React.Component {
     const newJuice = this.state.mainJuiceList.filter(
       (juice) => juice.id === juiceKey
     )[0];
-    this.setState({ currentJuiceInDetails: newJuice, pageShowing:1 });
+    this.setState({ currentJuiceInDetails: newJuice, pageShowing: 1 });
   }
 
   handleDeletingJuice = (id) => {
@@ -59,7 +68,7 @@ class JuiceControl extends React.Component {
     this.setState({
       mainJuiceList: newMainJuiceList,
       currentJuiceInDetails: null,
-      pageShowing: 1,
+      pageShowing: 0,
     });
   };
 

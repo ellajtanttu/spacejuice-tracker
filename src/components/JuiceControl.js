@@ -86,6 +86,28 @@ New Juice Form | 2 => button: Details(1)
     });
   };
 
+
+    //--------------------------------
+
+    handleEditQuantityClick = (juiceToEdit) => {
+      console.log(juiceToEdit);
+      const editedMainJuiceList = this.state.mainJuiceList
+        .filter((juice) => juice.id !== this.state.currentJuiceInDetails.id)
+        .concat(juiceToEdit.canisterCount -= 1 );
+      // console.log(editedMainJuiceList[0].canisterCount);
+      // console.log((editedMainJuiceList[0].canisterCount)-1);
+      console.log(juiceToEdit);
+      this.setState({
+        mainJuiceList: editedMainJuiceList,
+        editing: false,
+        currentJuiceInDetails: editedMainJuiceList,
+        pageShowing: 1,
+      });
+    };
+  
+  
+      //--------------------------------
+
   /*
 Juice List | 0 => button: NJ From (2)
 Juice Details | 1 => button: List (0)
@@ -110,6 +132,8 @@ New Juice Form | 2 => button: Details(1)
           juice={this.state.currentJuiceInDetails}
           onClickingDelete={this.handleDeletingJuice}
           onClickingEdit={this.handleEditClick}
+          //this is where I want to write:
+          onClickingEditQuantity={this.handleEditQuantityClick}
         />
       );
       buttonText = "Go back";

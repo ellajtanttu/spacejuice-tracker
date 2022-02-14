@@ -12,7 +12,7 @@ function EditJuiceForm(props) {
       distributor: event.target.distributor.value,
       price: event.target.price.value,
       flavor: event.target.flavor.value,
-      canisterCount: event.target.canisterCount.value,
+      canisterCount: parseInt(event.target.canisterCount.value),
       id: juice.id,
     });
   }

@@ -21,7 +21,7 @@ JuiceDetails.propTypes = {
   distributor: PropTypes.string,
   flavor: PropTypes.string,
   price: PropTypes.string,
-  canisterCount: PropTypes.string,
+  canisterCount: PropTypes.number,
   onClickingDelete: PropTypes.func,
   onClickingEdit: PropTypes.func,
 };

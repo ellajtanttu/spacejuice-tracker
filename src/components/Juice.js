@@ -34,4 +34,3 @@ Juice.propTypes = {
 };
 
 export default Juice;
-

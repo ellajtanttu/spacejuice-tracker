@@ -64,6 +64,6 @@ SpaceJuice Retailer - tracking multiple drums (each a different flavor of spaceJ
     - [X] Flavor(?)
 - [X] New Item form
 - [X] Click on item to see corresponding detail page
-- [ ] Button on Detail page for decreasing quantity
-    - [ ] sold a Canister, decreases total. 
-    - [ ] Total canister count can’t go below 0
+- [X] Button on Detail page for decreasing quantity
+    - [X] ] sold a Canister, decreases total. 
+    - [X] Total canister count can’t go below 0

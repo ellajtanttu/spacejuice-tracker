@@ -10,7 +10,7 @@ function App() {
       <About />
       <JuiceControl />
     </React.Fragment>
-  )
+  );
 }
 
 export default App;

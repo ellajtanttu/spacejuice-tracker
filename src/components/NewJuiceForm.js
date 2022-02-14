@@ -3,8 +3,7 @@ import { v4 } from "uuid";
 import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
 
-function NewJuiceForm(props){
-
+function NewJuiceForm(props) {
   function handleNewJuiceFormSubmission(event) {
     event.preventDefault();
     props.onNewJuiceCreation({
@@ -13,23 +12,22 @@ function NewJuiceForm(props){
       price: event.target.price.value,
       flavor: event.target.flavor.value,
       canisterCount: parseInt(event.target.canisterCount.value),
-      id: v4()})
-    };
+      id: v4(),
+    });
+  }
 
-
-  // event.target.names.value,
   return (
     <React.Fragment>
       <ReusableForm
         formSubmissionHandler={handleNewJuiceFormSubmission}
-        buttonText="Create"/>
+        buttonText="Create"
+      />
     </React.Fragment>
-  )
+  );
 }
 
 NewJuiceForm.propTypes = {
-  onNewJuiceCreation: PropTypes.func
+  onNewJuiceCreation: PropTypes.func,
 };
-
 
 export default NewJuiceForm;

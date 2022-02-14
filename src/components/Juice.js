@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Juice(props) {
-
   function onClickFunction() {
     props.onJuiceClick(props.id);
   }
@@ -20,11 +19,10 @@ function Juice(props) {
           <p>quantity: {props.canisterCount}</p>
         )}
         <button onClick={onClickFunction}>See Details</button>
-        </div>
+      </div>
     </React.Fragment>
   );
 }
-
 
 Juice.propTypes = {
   name: PropTypes.string,

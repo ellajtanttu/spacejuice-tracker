@@ -1,12 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-//     name: "Luminous Lime",
-//     distributor: "Hydrus Galaxy Inc.",
-//     flavor: "Lime",
-//     price: "$24 / Canister",
-//     canisterCount: "121"
-
 function ReusableForm(props) {
   return (
     <form onSubmit={props.formSubmissionHandler}>

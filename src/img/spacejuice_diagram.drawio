@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="GrAh-rpO2QakaHbhW3Zy" name="Page-1">
+        <mxGraphModel dx="349" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;shadow=0;sketch=1;glass=0;fontStyle=1;labelBackgroundColor=none;fontColor=#ffffff;fillStyle=solid;" vertex="1" parent="1">
+                    <mxGeometry x="89" y="30" width="600" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-1" value="&lt;font color=&quot;#4d9900&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;HEAD&lt;/font&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;E&lt;/font&gt;R&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=#2D7600;shadow=0;sketch=1;glass=0;fontStyle=1;labelBackgroundColor=none;fontColor=#ffffff;fillStyle=solid;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="70" width="530" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-2" value="&lt;font color=&quot;#ff3399&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;SPACEJUICE&lt;br&gt;CONTROL&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;LER&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3399&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;strokeColor=#A50040;fillColor=#FFCCFF;fillStyle=solid;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="140" width="320" height="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot; color=&quot;#007fff&quot;&gt;ABOUT &lt;br&gt;SPACEJUICE&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#99CCFF;fillStyle=solid;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="140" width="180" height="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-4" value="&lt;font color=&quot;#6600cc&quot;&gt;INVENTORY LIST: Juices&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#FFFFFF;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="194" width="270" height="166" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-5" value="&lt;font color=&quot;#7f00ff&quot;&gt;Juice Details&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#FFFFFF;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="387" width="270" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-7" value="&lt;font color=&quot;#ccffe6&quot;&gt;BUTTON: Add Juice &amp;gt; to Form&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="317" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-9" value="&lt;font color=&quot;#ccffe6&quot;&gt;BUTTON: Back &amp;gt; to List&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="428.5" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-13" value="&lt;font color=&quot;#ff8000&quot;&gt;Juice 1 =&amp;gt; Details&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;rounded=1;strokeColor=#d79b00;strokeWidth=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="227" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-14" value="&lt;font color=&quot;#ff8000&quot;&gt;Juice 2&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 128 , 0)&quot;&gt;=&amp;gt; Details&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;rounded=1;strokeColor=#d79b00;strokeWidth=0;" parent="1" vertex="1">
+                    <mxGeometry x="401" y="257" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-15" value="&lt;font color=&quot;#ff8000&quot;&gt;Juice 3&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 128 , 0)&quot;&gt;=&amp;gt; Details&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;rounded=1;strokeColor=#d79b00;strokeWidth=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="287" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="OT1H48VvFOvR_x2BKqIV-16" value="&lt;font color=&quot;#7f00ff&quot;&gt;NEW JUICE FORM&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#FFFFFF;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="356" y="507" width="270" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 25px&quot;&gt;App&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="40" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font color=&quot;#7f00ff&quot;&gt;EDIT JUICE FORM&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#FFFFFF;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="570" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#7f00ff&quot;&gt;REUSABLE FORM&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#FFFFFF;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="650" width="270" height="163" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#ccffe6&quot;&gt;SUBMIT&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="760" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font&gt;Input Field&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=#9673a6;fontColor=#6600CC;strokeWidth=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="670" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font&gt;Input Field&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=#9673a6;fontColor=#6600CC;strokeWidth=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="700" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font&gt;Input Field&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;rounded=1;strokeColor=#9673a6;fontColor=#6600CC;strokeWidth=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="730" width="180" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

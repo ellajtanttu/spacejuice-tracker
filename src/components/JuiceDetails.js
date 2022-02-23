@@ -11,12 +11,19 @@ function JuiceDetails(props) {
       <p>Distributor: {juice.distributor}</p>
       <p>Flavor: {juice.flavor}</p>
       <p>Price: {juice.price}</p>
-      <p>Canisters Remaining: {juice.canisterCount}</p>
+      <h4>Canisters Remaining:</h4>
+        {juice.canisterCount === 0 ? (
+          <p>Out of Stock</p>
+        ) : (
+          <div>
+          <p>quantity: {juice.canisterCount}</p>
+          <button onClick={() => onClickingSoldCanister(juice.canisterCount)}>
+          One Canister Sold
+          </button>
+          </div>
+        )}
       <button onClick={() => onClickingDelete(juice.id)}>Delete juice</button>
       <button onClick={onClickingEdit}>Update Ticket</button>
-      <button onClick={() => onClickingSoldCanister(juice.canisterCount)}>
-        One Canister Sold
-      </button>
     </React.Fragment>
   );
 }

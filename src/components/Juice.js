@@ -8,6 +8,7 @@ function Juice(props) {
 
   return (
     <React.Fragment>
+      <hr/>
       <div>
         <h2>Juice Name: {props.name}</h2>
         <p>Juice Price: {props.price}</p>
@@ -20,6 +21,7 @@ function Juice(props) {
         )}
         <button onClick={onClickFunction}>See Details</button>
       </div>
+      <hr/>
     </React.Fragment>
   );
 }

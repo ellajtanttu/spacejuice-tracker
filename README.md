@@ -20,7 +20,7 @@ _TBD_
 
 ## Project Layout Diagram
 
-![spacejuice-diagram](src/img/spacejuice_diagram.drawio.svg)
+![spacejuice-diagram](src/img/spacejuice_diagram.png)
 
 ## Setup/Installation Requirements
 
